@@ -14,8 +14,8 @@ system with default Navman application, so it's addressed to owners of this devi
 2. *Update your default software to the newest version through MioMore Desktop.
 3. *Make a backup of your device through MioMore Desktop.
 4. Copy `Menu` folder to `Program Files\` direcotry on your device.
-5. Copy file `Program File\Navman\appstartupsec.ini` to `Program File\Navman\appstartupsec.bak.ini` on your device.
-6. Append following lines to `Program File\Navman\appstartupsec.ini` on your device:
+5. Copy file `Program Files\Navman\appstartupsec.ini` to `Program Files\Navman\appstartupsec.bak.ini` on your device.
+6. Append following lines to `Program Files\Navman\appstartupsec.ini` on your device:
    ```ini
 [Process9]
 RelativePath=FALSE
@@ -37,6 +37,39 @@ KeysToBoot=
 Now menu should start instead of default application.
 
 **Points 2 and 3 are not required but highly recommended.*
+
+## Configuration
+
+By default this menu is conigured like this:
+
+1. Mio icon will run application located at `\My Flash Disk\Program Files\Menu\startmio.exe`.
+   This appliaction will start [startmio.mscr](https://github.com/karasq/MioMenuQ/blob/master/Menu/startmio.mscr) 
+   that will kill menu and start default Mio application.
+
+2. AutoMap icon is configured to run application located at `\Storage Card\AutoMapa EU\AutoMapa EU.exe`.
+3. Power Off icon is configured to run application located at `\My Flash Disk\Program Files\Menu\poweroff.exe`.
+   This application will start [poweroff.mscr](https://github.com/karasq/MioMenuQ/blob/master/Menu/poweroff.mscr) 
+   that will sleep your device.
+
+4. Windows icon is configured to run application located at `\Windows\explorer.exe`.
+   This will start built-in Windows Explorer.
+
+5. Settings icon is configured to run application located at `\My Flash Disk\Program Files\Menu\Moov Settings\Settings.exe`.
+   This will start Moov Settings application that let you configure your device (date, backlight, sound volume level, etc)
+
+6. Reset icon is configured to run application located at `\My Flash Disk\Program Files\Menu\restart.exe`.
+   This will reboot your device.
+
+To change menu default configuration please take a look to [desktop.ini](https://github.com/karasq/MioMenuQ/blob/master/Menu/desktop.ini).
+
+AutoMount application located at `\My Flash Disk\Program Files\Menu\automount.exe` will be start before Menu. 
+Mio Spirit 6970 LE doesn't mount SD card partition during booting process. This application will mount available, 
+unmouted partitions, so location `\Storage Card\` will be available without manually reinserting memory card.
+
+## Known issues
+
+1. Your device will be not detected by PC when you run Menu. You need to connect your device to PC and 
+then restart your device or disconect your device from PC and start Mio application and then connect it again.
 
 ## Disclaimer
 Wrong usage of this application, insalling it on untested models may cause permanent dameage like 
