@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<WidgetMgr>
+	<Widget name="Rom" id="0" style="268435475" ex_Style="0" left="0" top="0" width="480" height="272" stretch="1" sync_type="3">
+		<Image0 name="BG_1.PNG"/>
+		<CtrlBtn name="RomExit" id="0" style="268436483" ex_Style="0" left="398" top="0" width="82" height="38" stretch="1" sync_type="3">
+			<Image0 name="BACK_BTN.PNG"/>
+			<Image1 name="BACK_BTN_D.PNG"/>
+			<Image2 name="BACK_BTN.PNG"/>
+			<Image3 name="BACK_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlLabel name="RomText" id="0" style="4099" ex_Style="0" left="62" top="12" width="100" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlRect name="Rect" id="0" style="268435459" ex_Style="0" left="0" top="0" width="55" height="38" stretch="1" sync_type="3">
+			<Image0 name="TITLE_ICON\ST_ABOUT_ICON.PNG"/>
+		</CtrlRect>
+		<CtrlLabel name="PackageVersion" id="0" style="4099" ex_Style="0" left="38" top="84" width="314" height="31" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlLabel name="PackageVerNo" id="0" style="4099" ex_Style="0" left="118" top="114" width="224" height="29" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlLabel name="RomVersion" id="0" style="4099" ex_Style="0" left="39" top="147" width="142" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlLabel name="RomVerNo" id="0" style="4099" ex_Style="0" left="118" top="174" width="227" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+			</CtrlLabel>
+		<CtrlLabel name="Author:" id="0" style="4099" ex_Style="0" left="40" top="204" width="312" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+			</CtrlLabel>
+		<CtrlLabel name="Hellrayser" id="0" style="4099" ex_Style="0" left="118" top="224" width="312" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+	</Widget>
+	<Widget name="Screen" id="0" style="268435459" ex_Style="0" left="0" top="0" width="480" height="272" stretch="1" sync_type="3">
+		<Image0 name="BG_1.PNG"/>
+		<CtrlBtn name="ScreenNo" id="0" style="268436483" ex_Style="0" left="398" top="0" width="82" height="38" stretch="1" sync_type="3">
+			<Image0 name="BACK_BTN.PNG"/>
+			<Image1 name="BACK_BTN_D.PNG"/>
+			<Image2 name="BACK_BTN.PNG"/>
+			<Image3 name="BACK_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlLabel name="ScreenText" id="0" style="4099" ex_Style="0" left="62" top="12" width="100" height="30" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlLabel name="ScreenInfoText" id="0" style="4099" ex_Style="0" left="89" top="110" width="284" height="94" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlRect name="Rect" id="0" style="268435459" ex_Style="0" left="0" top="0" width="55" height="38" stretch="1" sync_type="3">
+			<Image0 name="TITLE_ICON\ST_ALIGN_SCREEN_ICON.PNG"/>
+		</CtrlRect>
+		<CtrlBtn name="ScreenOK" id="0" style="268764163" ex_Style="0" left="362" top="215" width="105" height="48" stretch="1" sync_type="3" text_enabled="1">
+			<Image0 name="ST_ALIGN_BTN.PNG"/>
+			<Image1 name="ST_ALIGN_BTN_D.PNG"/>
+			<Image2 name="ST_ALIGN_BTN.PNG"/>
+			<Image3 name="ST_ALIGN_BTN.PNG"/>
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlBtn>
+	</Widget>
+	<Widget name="Warning" id="0" style="268435459" ex_Style="0" left="0" top="0" width="480" height="272" stretch="1" sync_type="3">
+		<Image0 name="BG_1.PNG"/>
+		<CtrlLabel name="WarningText" id="0" style="4099" ex_Style="0" left="19" top="15" width="150" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="16777215" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlLabel name="SucceedText" id="0" style="4099" ex_Style="0" left="95" top="79" width="348" height="118" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlBtn name="WarningOK" id="0" style="268436483" ex_Style="0" left="122" top="215" width="232" height="50" stretch="1" sync_type="3">
+			<Image0 name="ST_YES_BTN.PNG"/>
+			<Image1 name="ST_YES_BTN_D.PNG"/>
+			<Image2 name="ST_YES_BTN.PNG"/>
+			<Image3 name="ST_YES_BTN.PNG"/>
+		</CtrlBtn>
+	</Widget>
+	<Widget name="Language" id="0" style="268435459" ex_Style="0" left="0" top="0" width="480" height="272" stretch="1" sync_type="3">
+		<Image0 name="BG_1.PNG"/>
+		<CtrlBtn name="LangOK" id="0" style="268436483" ex_Style="0" left="398" top="0" width="82" height="38" stretch="1" sync_type="3">
+			<Image0 name="BACK_BTN.PNG"/>
+			<Image1 name="BACK_BTN_D.PNG"/>
+			<Image2 name="BACK_BTN.PNG"/>
+			<Image3 name="BACK_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlLabel name="LanguageText" id="0" style="4099" ex_Style="0" left="62" top="12" width="150" height="30" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlRect name="Rect" id="0" style="268435459" ex_Style="0" left="0" top="0" width="55" height="38" stretch="1" sync_type="3">
+			<Image0 name="TITLE_ICON\ST_LANGUAGE_ICON.PNG"/>
+		</CtrlRect>
+		<CtrlEdit name="LanguageEdit" id="0" style="402653345" ex_Style="0" left="33" top="126" width="323" height="36" stretch="1" sync_type="3" text_enabled="1">
+			<Image0 name="ST_FROM_1.PNG"/>
+			<FontNo0 index="3" color="16777215" shadow_color="0"/>
+			<FontNo1 index="3" color="16777215" shadow_color="0"/>
+			<FontNo2 index="3" color="16777215" shadow_color="0"/>
+			<FontNo3 index="3" color="16777215" shadow_color="0"/>
+		</CtrlEdit>
+		<CtrlLabel name="SwitchLang" id="0" style="4099" ex_Style="0" left="30" top="100" width="100" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlBtn name="LangDown" id="0" style="268436483" ex_Style="0" left="403" top="126" width="43" height="36" stretch="1" sync_type="3">
+			<Image0 name="FORM_SELECT_NEXT_BTN.PNG"/>
+			<Image1 name="FORM_SELECT_NEXT_BTN_D.PNG"/>
+			<Image2 name="FORM_SELECT_NEXT_BTN.PNG"/>
+			<Image3 name="FORM_SELECT_NEXT_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlBtn name="LangUp" id="0" style="268436483" ex_Style="0" left="359" top="126" width="43" height="36" stretch="1" sync_type="3">
+			<Image0 name="ST_PREIOUSEQ_BTN.PNG"/>
+			<Image1 name="ST_PREIOUSEQ_BTN_D.PNG"/>
+			<Image2 name="ST_PREIOUSEQ_BTN.PNG"/>
+			<Image3 name="ST_PREIOUSEQ_BTN.PNG"/>
+		</CtrlBtn>
+	</Widget>
+	<Widget name="SettingsMain1" id="0" style="268435459" ex_Style="0" left="0" top="0" width="480" height="272" stretch="1" sync_type="3">
+		<Image0 name="BG_1.PNG"/>
+		<CtrlLabel name="SettingText1" id="0" style="4099" ex_Style="0" left="62" top="12" width="150" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlBtn name="Exit1" id="0" style="268436483" ex_Style="0" left="398" top="0" width="82" height="38" stretch="1" sync_type="3">
+			<Image0 name="BACK_BTN.PNG"/>
+			<Image1 name="BACK_BTN_D.PNG"/>
+			<Image2 name="BACK_BTN.PNG"/>
+			<Image3 name="BACK_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlRect name="Rect" id="0" style="268435459" ex_Style="0" left="12" top="0" width="47" height="37" stretch="1" sync_type="3">
+			<Image0 name="TITLE_ICON\ST_SETTINGS_ICON.PNG"/>
+		</CtrlRect>
+		<CtrlBtn name="BackLight" id="0" style="269026307" ex_Style="0" left="14" top="52" width="107" height="107" stretch="1" sync_type="3" text_offset_y="2" text_enabled="1">
+			<Image0 name="SETTINGS_MENU\ST_BACKLIGHT_BTN.PNG"/>
+			<Image1 name="SETTINGS_MENU\ST_BACKLIGHT_BTN_D.PNG"/>
+			<Image2 name="SETTINGS_MENU\ST_BACKLIGHT_BTN.PNG"/>
+			<Image3 name="SETTINGS_MENU\ST_BACKLIGHT_BTN.PNG"/>
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="7697781" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlBtn name="Power" id="0" style="269026307" ex_Style="0" left="359" top="52" width="107" height="107" stretch="1" sync_type="3" text_offset_y="2" text_enabled="1">
+			<Image0 name="SETTINGS_MENU\ST_POWER_BTN.PNG"/>
+			<Image1 name="SETTINGS_MENU\ST_POWER_BTN_D.PNG"/>
+			<Image2 name="SETTINGS_MENU\ST_POWER_BTN.PNG"/>
+			<Image3 name="SETTINGS_MENU\ST_POWER_BTN.PNG"/>
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="7697781" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlBtn name="Volume" id="0" style="269026307" ex_Style="0" left="129" top="52" width="107" height="107" stretch="1" sync_type="3" text_offset_y="2" text_enabled="1">
+			<Image0 name="SETTINGS_MENU\ST_VOLUME_BTN.PNG"/>
+			<Image1 name="SETTINGS_MENU\ST_VOLUME_BTN_D.PNG"/>
+			<Image2 name="SETTINGS_MENU\ST_VOLUME_BTN.PNG"/>
+			<Image3 name="SETTINGS_MENU\ST_VOLUME_BTN.PNG"/>
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="7697781" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlBtn name="Screen" id="0" style="269026307" ex_Style="0" left="244" top="52" width="107" height="107" stretch="1" sync_type="3" text_offset_y="2" text_enabled="1">
+			<Image0 name="SETTINGS_MENU\ST_ALIGN_SCREEN_BTN.PNG"/>
+			<Image1 name="SETTINGS_MENU\ST_ALIGN_SCREEN_BTN_D.PNG"/>
+			<Image2 name="SETTINGS_MENU\ST_ALIGN_SCREEN_BTN.PNG"/>
+			<Image3 name="SETTINGS_MENU\ST_ALIGN_SCREEN_BTN.PNG"/>
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="7697781" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlBtn name="TimeZone" id="0" style="269026307" ex_Style="0" left="14" top="159" width="107" height="107" stretch="1" sync_type="3" text_offset_y="2" text_enabled="1">
+			<Image0 name="SETTINGS_MENU\ST_DATE_TIME_BTN.PNG"/>
+			<Image1 name="SETTINGS_MENU\ST_DATE_TIME_BTN_D.PNG"/>
+			<Image2 name="SETTINGS_MENU\ST_DATE_TIME_BTN.PNG"/>
+			<Image3 name="SETTINGS_MENU\ST_DATE_TIME_BTN.PNG"/>
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="7697781" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlBtn name="Language" id="0" style="269026307" ex_Style="0" left="129" top="159" width="107" height="107" stretch="1" sync_type="3" text_offset_y="2" text_enabled="1">
+			<Image0 name="SETTINGS_MENU\ST_LANGUAGE_BTN.PNG"/>
+			<Image1 name="SETTINGS_MENU\ST_LANGUAGE_BTN_D.PNG"/>
+			<Image2 name="SETTINGS_MENU\ST_LANGUAGE_BTN.PNG"/>
+			<Image3 name="SETTINGS_MENU\ST_LANGUAGE_BTN.PNG"/>
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="7697781" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlBtn name="Rom" id="0" style="269026307" ex_Style="0" left="244" top="159" width="107" height="107" stretch="1" sync_type="3" text_offset_y="2" text_enabled="1">
+			<Image0 name="SETTINGS_MENU\ST_ABOUT_BTN.PNG"/>
+			<Image1 name="SETTINGS_MENU\ST_ABOUT_BTN_D.PNG"/>
+			<Image2 name="SETTINGS_MENU\ST_ABOUT_BTN.PNG"/>
+			<Image3 name="SETTINGS_MENU\ST_ABOUT_BTN.PNG"/>
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlBtn>
+	</Widget>
+	<Widget name="Power" id="0" style="268435459" ex_Style="0" left="0" top="0" width="480" height="272" stretch="1" sync_type="3">
+		<Image0 name="ST_POWER_BG.PNG"/>
+		<CtrlBtn name="PowerOK" id="0" style="268436483" ex_Style="0" left="398" top="0" width="82" height="38" stretch="1" sync_type="3">
+			<Image0 name="BACK_BTN.PNG"/>
+			<Image1 name="BACK_BTN_D.PNG"/>
+			<Image2 name="BACK_BTN.PNG"/>
+			<Image3 name="BACK_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlLabel name="PowerText" id="0" style="4099" ex_Style="0" left="62" top="12" width="150" height="30" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlRect name="Rect" id="0" style="268435459" ex_Style="0" left="0" top="0" width="55" height="38" stretch="1" sync_type="3">
+			<Image0 name="TITLE_ICON\ST_POWER_ICON.PNG"/>
+		</CtrlRect>
+		<CtrlBtn name="PowerUp" id="0" style="268436480" ex_Style="0" left="359" top="172" width="43" height="36" stretch="1" sync_type="3">
+			<Image0 name="ST_PREIOUSEQ_BTN.PNG"/>
+			<Image1 name="ST_PREIOUSEQ_BTN_D.PNG"/>
+			<Image2 name="ST_PREIOUSEQ_BTN.PNG"/>
+			<Image3 name="ST_PREIOUSEQ_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlBtn name="PowerDown" id="0" style="268436480" ex_Style="0" left="403" top="171" width="43" height="36" stretch="1" sync_type="3">
+			<Image0 name="FORM_SELECT_NEXT_BTN.PNG"/>
+			<Image1 name="FORM_SELECT_NEXT_BTN_D.PNG"/>
+			<Image2 name="FORM_SELECT_NEXT_BTN.PNG"/>
+			<Image3 name="FORM_SELECT_NEXT_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlSlider name="PowerSlider" id="0" style="268435459" ex_Style="0" left="83" top="109" width="316" height="25" stretch="1" sync_type="3">
+			<Image0 name="STATUS_BAR\ST_STATUS_PROCESS_3.PNG"/>
+		</CtrlSlider>
+		<CtrlLabel name="StatusText" id="0" style="4099" ex_Style="0" left="30" top="68" width="300" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlLabel name="TurnOffInfo" id="0" style="4096" ex_Style="0" left="30" top="145" width="350" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlEdit name="PowerEdit" id="0" style="402981024" ex_Style="0" left="33" top="172" width="323" height="36" stretch="1" sync_type="3" text_enabled="1">
+			<Image0 name="ST_FROM_1.PNG"/>
+			<FontNo0 index="1" color="0" shadow_color="0"/>
+			<FontNo1 index="1" color="0" shadow_color="0"/>
+			<FontNo2 index="1" color="0" shadow_color="0"/>
+			<FontNo3 index="1" color="0" shadow_color="0"/>
+		</CtrlEdit>
+	</Widget>
+	<Widget name="Volume" id="0" style="268435459" ex_Style="0" left="0" top="0" width="480" height="272" stretch="1" sync_type="3">
+		<Image0 name="ST_BG.PNG"/>
+		<CtrlLabel name="VolumeText" id="0" style="4099" ex_Style="0" left="62" top="12" width="150" height="30" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlBtn name="VolOK" id="0" style="268436483" ex_Style="0" left="398" top="0" width="82" height="38" stretch="1" sync_type="3">
+			<Image0 name="BACK_BTN.PNG"/>
+			<Image1 name="BACK_BTN_D.PNG"/>
+			<Image2 name="BACK_BTN.PNG"/>
+			<Image3 name="BACK_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlRect name="Rect" id="0" style="268435459" ex_Style="0" left="0" top="0" width="55" height="38" stretch="1" sync_type="3">
+			<Image0 name="TITLE_ICON\ST_VOLUME_ICON.PNG"/>
+		</CtrlRect>
+		<CtrlBtn name="VolDown" id="0" style="268436483" ex_Style="0" left="33" top="100" width="67" height="53" stretch="1" sync_type="3">
+			<Image0 name="ST_VOLUME-_BTN.PNG"/>
+			<Image1 name="ST_VOLUME-_BTN.PNG"/>
+			<Image2 name="ST_VOLUME-_BTN.PNG"/>
+			<Image3 name="ST_VOLUME-_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlBtn name="VolUp" id="0" style="268436483" ex_Style="0" left="381" top="100" width="67" height="53" stretch="1" sync_type="3">
+			<Image0 name="ST_VOLUME+_BTN.PNG"/>
+			<Image1 name="ST_VOLUME+_BTN.PNG"/>
+			<Image2 name="ST_VOLUME+_BTN.PNG"/>
+			<Image3 name="ST_VOLUME+_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlBtn name="ScreenSoundBTN" id="0" style="268469763" ex_Style="0" left="30" top="202" width="30" height="30" stretch="1" sync_type="3">
+			<Image0 name="CHECKBOX.PNG"/>
+			<Image1 name="CHECKBOX_D.PNG"/>
+			<Image2 name="CHECKBOX_G.PNG"/>
+			<Image3 name="CHECKBOX_H.PNG"/>
+		</CtrlBtn>
+		<CtrlLabel name="ScreenSoundText" id="0" style="4099" ex_Style="0" left="67" top="208" width="300" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlSlider name="VolSlider" id="0" style="268435459" ex_Style="0" left="108" top="101" width="265" height="49" stretch="1" sync_type="3">
+			<Image0 name="STATUS_BAR\ST_STATUS_PROCESS_2.PNG"/>
+			<CtrlBtn name="Button" id="0" style="268436483" ex_Style="0" left="106" top="101" width="37" height="49" stretch="1" sync_type="3">
+				<Image0 name="STATUS_BAR\ST_STATUS_BUTTON_2.PNG"/>
+			</CtrlBtn>
+		</CtrlSlider>
+	</Widget>
+	<Widget name="Backlight" id="0" style="268435459" ex_Style="0" left="0" top="0" width="480" height="272" stretch="1" sync_type="3">
+		<Image0 name="ST_BG.PNG"/>
+		<CtrlBtn name="BKDown" id="0" style="268436483" ex_Style="0" left="33" top="100" width="67" height="53" stretch="1" sync_type="3">
+			<Image0 name="ST_VOLUME-_BTN.PNG"/>
+			<Image1 name="ST_VOLUME-_BTN.PNG"/>
+			<Image2 name="ST_VOLUME-_BTN.PNG"/>
+			<Image3 name="ST_VOLUME-_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlBtn name="BKUp" id="0" style="268436483" ex_Style="0" left="381" top="100" width="67" height="53" stretch="1" sync_type="3">
+			<Image0 name="ST_VOLUME+_BTN.PNG"/>
+			<Image1 name="ST_VOLUME+_BTN.PNG"/>
+			<Image2 name="ST_VOLUME+_BTN.PNG"/>
+			<Image3 name="ST_VOLUME+_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlBtn name="BKOK" id="0" style="268436483" ex_Style="0" left="398" top="0" width="82" height="38" stretch="1" sync_type="3">
+			<Image0 name="BACK_BTN.PNG"/>
+			<Image1 name="BACK_BTN_D.PNG"/>
+			<Image2 name="BACK_BTN.PNG"/>
+			<Image3 name="BACK_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlLabel name="BackLightText" id="0" style="4099" ex_Style="0" left="62" top="12" width="150" height="30" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlRect name="Rect" id="0" style="268435459" ex_Style="0" left="0" top="0" width="55" height="38" stretch="1" sync_type="3">
+			<Image0 name="TITLE_ICON\ST_BACKLIGHT_ICON.PNG"/>
+		</CtrlRect>
+		<CtrlSlider name="BKSlider" id="0" style="268435459" ex_Style="0" left="108" top="101" width="265" height="49" stretch="1" sync_type="3">
+			<Image0 name="STATUS_BAR\ST_STATUS_PROCESS_2.PNG"/>
+			<CtrlBtn name="Button" id="0" style="268436483" ex_Style="0" left="106" top="101" width="37" height="49" stretch="1" sync_type="3">
+				<Image0 name="STATUS_BAR\ST_STATUS_BUTTON_2.PNG"/>
+			</CtrlBtn>
+		</CtrlSlider>
+	</Widget>
+	<Widget name="TimeZone" id="0" style="268435459" ex_Style="0" left="0" top="0" width="480" height="272" stretch="1" sync_type="3">
+		<Image0 name="BG_1.PNG"/>
+		<CtrlBtn name="DateTimeOK" id="0" style="268436483" ex_Style="0" left="399" top="0" width="82" height="38" stretch="1" sync_type="3">
+			<Image0 name="BACK_BTN.PNG"/>
+			<Image1 name="BACK_BTN_D.PNG"/>
+			<Image2 name="BACK_BTN.PNG"/>
+			<Image3 name="BACK_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlLabel name="DateTime" id="0" style="4099" ex_Style="0" left="62" top="12" width="150" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlRect name="Rect" id="0" style="268435459" ex_Style="0" left="0" top="0" width="55" height="38" stretch="1" sync_type="3">
+			<Image0 name="TITLE_ICON\ST_DATA_TIME_IOCN.PNG"/>
+		</CtrlRect>
+		<CtrlEdit name="Edit" id="0" style="402653345" ex_Style="0" left="33" top="94" width="323" height="36" stretch="1" sync_type="3" text_enabled="1">
+			<Image0 name="ST_FROM_1.PNG"/>
+			<FontNo0 index="1" color="16777215" shadow_color="0"/>
+			<FontNo1 index="1" color="0" shadow_color="0"/>
+			<FontNo2 index="1" color="0" shadow_color="0"/>
+			<FontNo3 index="1" color="0" shadow_color="0"/>
+		</CtrlEdit>
+		<CtrlBtn name="TimeZoneDown" id="0" style="268436483" ex_Style="0" left="403" top="94" width="43" height="36" stretch="1" sync_type="3">
+			<Image0 name="FORM_SELECT_NEXT_BTN.PNG"/>
+			<Image1 name="FORM_SELECT_NEXT_BTN_D.PNG"/>
+			<Image2 name="FORM_SELECT_NEXT_BTN.PNG"/>
+			<Image3 name="FORM_SELECT_NEXT_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlBtn name="TimeZoneUp" id="0" style="268436483" ex_Style="0" left="359" top="94" width="43" height="36" stretch="1" sync_type="3">
+			<Image0 name="ST_PREIOUSEQ_BTN.PNG"/>
+			<Image1 name="ST_PREIOUSEQ_BTN_D.PNG"/>
+			<Image2 name="ST_PREIOUSEQ_BTN.PNG"/>
+			<Image3 name="ST_PREIOUSEQ_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlBtn name="TimeUp" id="0" style="268436483" ex_Style="0" left="359" top="172" width="43" height="36" stretch="1" sync_type="3">
+			<Image0 name="ST_PREIOUSEQ_BTN.PNG"/>
+			<Image1 name="ST_PREIOUSEQ_BTN_D.PNG"/>
+			<Image2 name="ST_PREIOUSEQ_BTN.PNG"/>
+			<Image3 name="ST_PREIOUSEQ_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlBtn name="TimeDown" id="0" style="268436483" ex_Style="0" left="403" top="172" width="43" height="36" stretch="1" sync_type="3">
+			<Image0 name="FORM_SELECT_NEXT_BTN.PNG"/>
+			<Image1 name="FORM_SELECT_NEXT_BTN_D.PNG"/>
+			<Image2 name="FORM_SELECT_NEXT_BTN.PNG"/>
+			<Image3 name="FORM_SELECT_NEXT_BTN.PNG"/>
+		</CtrlBtn>
+
+		<CtrlBtn name="CheckBTN" id="0" style="268436995" ex_Style="0" left="25" top="222" width="30" height="30" stretch="1" sync_type="3">
+			<Image0 name="CHECKBOX.PNG"/>
+			<Image1 name="CHECKBOX_D.PNG"/>
+			<Image2 name="CHECKBOX_G.PNG"/>
+			<Image3 name="CHECKBOX_H.PNG"/>
+		</CtrlBtn>
+		<CtrlLabel name="DayLightText" id="0" style="266243" ex_Style="0" left="67" top="217" width="389" height="44" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlLabel name="DateText" id="0" style="4099" ex_Style="0" left="30" top="145" width="100" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlLabel name="TimeText" id="0" style="4099" ex_Style="0" left="239" top="145" width="100" height="30" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlLabel name="TimeZoneText" id="0" style="4099" ex_Style="0" left="30" top="68" width="150" height="25" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="0" color="0" shadow_color="0"/>
+			<FontNo1 index="0" color="0" shadow_color="0"/>
+			<FontNo2 index="0" color="0" shadow_color="0"/>
+			<FontNo3 index="0" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlEdit name="DateEdit" id="0" style="402653345" ex_Style="0" left="33" top="172" width="114" height="36" stretch="1" sync_type="3" text_enabled="1">
+			<Image0 name="SETTINGS_DATA_TIME_1_FROM.PNG"/>
+			<FontNo0 index="2" color="16777215" shadow_color="0"/>
+			<FontNo1 index="2" color="16777215" shadow_color="0"/>
+			<FontNo2 index="2" color="16777215" shadow_color="0"/>
+			<FontNo3 index="2" color="16777215" shadow_color="0"/>
+		</CtrlEdit>
+		<CtrlRect name="Rect" id="0" style="268435459" ex_Style="0" left="241" top="172" width="114" height="36" stretch="1" sync_type="3">
+			<Image0 name="SETTINGS_DATA_TIME_1_FROM.PNG"/>
+		</CtrlRect>
+		<CtrlLabel name=": " id="0" style="4099" ex_Style="0" left="270" top="178" width="10" height="30" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="1" color="16777215" shadow_color="0"/>
+			<FontNo1 index="1" color="0" shadow_color="0"/>
+			<FontNo2 index="1" color="0" shadow_color="0"/>
+			<FontNo3 index="1" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlLabel name=":  " id="0" style="4099" ex_Style="0" left="312" top="178" width="10" height="30" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="1" color="16777215" shadow_color="0"/>
+			<FontNo1 index="1" color="0" shadow_color="0"/>
+			<FontNo2 index="1" color="0" shadow_color="0"/>
+			<FontNo3 index="1" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlBtn name="Hour" id="0" style="268698627" ex_Style="0" left="245" top="172" width="25" height="34" stretch="1" sync_type="3" text_enabled="1">
+			<Image0 name="ST_TIME.PNG"/>
+			<Image1 name="ST_TIME_D.PNG"/>
+			<FontNo0 index="2" color="16777215" shadow_color="0"/>
+			<FontNo1 index="2" color="0" shadow_color="0"/>
+			<FontNo2 index="2" color="0" shadow_color="0"/>
+			<FontNo3 index="2" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlBtn name="Minutes" id="0" style="268698627" ex_Style="0" left="286" top="172" width="25" height="34" stretch="1" sync_type="3" text_enabled="1">
+			<Image0 name="ST_TIME.PNG"/>
+			<Image1 name="ST_TIME_D.PNG"/>
+			<FontNo0 index="2" color="16777215" shadow_color="0"/>
+			<FontNo1 index="2" color="0" shadow_color="0"/>
+			<FontNo2 index="2" color="0" shadow_color="0"/>
+			<FontNo3 index="2" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlBtn name="Seconds" id="0" style="268698627" ex_Style="0" left="330" top="172" width="25" height="34" stretch="1" sync_type="3" text_enabled="1">
+			<Image0 name="ST_TIME.PNG"/>
+			<Image1 name="ST_TIME_D.PNG"/>
+			<FontNo0 index="2" color="16777215" shadow_color="0"/>
+			<FontNo1 index="2" color="0" shadow_color="0"/>
+			<FontNo2 index="2" color="0" shadow_color="0"/>
+			<FontNo3 index="2" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlLabel name="/ " id="0" style="4099" ex_Style="0" left="76" top="180" width="10" height="30" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="1" color="16777215" shadow_color="0"/>
+			<FontNo1 index="1" color="0" shadow_color="0"/>
+			<FontNo2 index="1" color="0" shadow_color="0"/>
+			<FontNo3 index="1" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlLabel name="/  " id="0" style="4099" ex_Style="0" left="110" top="180" width="10" height="30" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="1" color="16777215" shadow_color="0"/>
+			<FontNo1 index="1" color="0" shadow_color="0"/>
+			<FontNo2 index="1" color="0" shadow_color="0"/>
+			<FontNo3 index="1" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlBtn name="Year" id="0" style="268698627" ex_Style="0" left="33" top="172" width="44" height="34" stretch="1" sync_type="3" text_enabled="1">
+			<Image0 name="ST_TIME.PNG"/>
+			<Image1 name="ST_TIME_D.PNG"/>
+			<FontNo0 index="2" color="16777215" shadow_color="0"/>
+			<FontNo1 index="2" color="0" shadow_color="0"/>
+			<FontNo2 index="2" color="0" shadow_color="0"/>
+			<FontNo3 index="2" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlBtn name="Month" id="0" style="268698627" ex_Style="0" left="86" top="172" width="25" height="34" stretch="1" sync_type="3" text_enabled="1">
+			<Image0 name="ST_TIME.PNG"/>
+			<Image1 name="ST_TIME_D.PNG"/>
+			<FontNo0 index="2" color="16777215" shadow_color="0"/>
+			<FontNo1 index="2" color="0" shadow_color="0"/>
+			<FontNo2 index="2" color="0" shadow_color="0"/>
+			<FontNo3 index="2" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlBtn name="Day" id="0" style="268698627" ex_Style="0" left="122" top="172" width="25" height="34" stretch="1" sync_type="3" text_enabled="1">
+			<Image0 name="ST_TIME.PNG"/>
+			<Image1 name="ST_TIME_D.PNG"/>
+			<FontNo0 index="2" color="16777215" shadow_color="0"/>
+			<FontNo1 index="2" color="0" shadow_color="0"/>
+			<FontNo2 index="2" color="0" shadow_color="0"/>
+			<FontNo3 index="2" color="0" shadow_color="0"/>
+		</CtrlBtn>
+		<CtrlLabel name="TimeZoneEdit" id="0" style="327683" ex_Style="0" left="33" top="94" width="323" height="36" stretch="1" sync_type="3" text_enabled="1">
+			<FontNo0 index="2" color="16777215" shadow_color="0"/>
+			<FontNo1 index="2" color="0" shadow_color="0"/>
+			<FontNo2 index="2" color="0" shadow_color="0"/>
+			<FontNo3 index="2" color="0" shadow_color="0"/>
+		</CtrlLabel>
+		<CtrlBtn name="DateUp" id="0" style="268436483" ex_Style="0" left="149" top="172" width="43" height="36" stretch="1" sync_type="3">
+			<Image0 name="ST_PREIOUSEQ_BTN.PNG"/>
+			<Image1 name="ST_PREIOUSEQ_BTN_D.PNG"/>
+			<Image2 name="ST_PREIOUSEQ_BTN.PNG"/>
+			<Image3 name="ST_PREIOUSEQ_BTN.PNG"/>
+		</CtrlBtn>
+		<CtrlBtn name="DateDown" id="0" style="268436483" ex_Style="0" left="193" top="172" width="43" height="36" stretch="1" sync_type="3">
+			<Image0 name="FORM_SELECT_NEXT_BTN.PNG"/>
+			<Image1 name="FORM_SELECT_NEXT_BTN_D.PNG"/>
+			<Image2 name="FORM_SELECT_NEXT_BTN.PNG"/>
+			<Image3 name="FORM_SELECT_NEXT_BTN.PNG"/>
+		</CtrlBtn>
+	</Widget>
+	<Fonts>
+		<Font0 name="Arial" height="-16" width="0" weight="700" underlined="0" italic="0"/>
+		<Font1 name="Tahoma" height="20" width="0" weight="400" underlined="0" italic="0"/>
+		<Font2 name="Arial" height="-16" width="0" weight="400" underlined="0" italic="0"/>
+		<Font3 name="Arial" height="-20" width="0" weight="400" underlined="0" italic="0"/>
+	</Fonts>
+</WidgetMgr>

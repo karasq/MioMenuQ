@@ -1,0 +1,35 @@
+# Directories
+dirRun = SystemPath("ScriptExe")
+dirNavman = "\My Flash Disk\Program Files\Navman"
+
+# Processes
+processAppStartupSec = "AppStartupSec.exe"
+processSmartST_CE = "SmartST_CE.exe"
+processMenu = "menu.exe"
+
+# Exe full paths
+exeMenu = dirRun \ processMenu
+exeAppStartupSec = dirNavman \ processAppStartupSec
+
+# Skip menu file
+skipMenu = "\Windows\menu.skip"
+
+# Kill default MIO applications
+If(ProcExists(processAppStartupSec))
+	Kill(processAppStartupSec)
+EndIf
+
+If(ProcExists(processSmartST_CE))
+	Kill(processSmartST_CE)
+EndIf
+
+# Kill menu if already exists
+If(ProcExists(processMenu))
+	Kill(processMenu)
+EndIf
+
+# Create lock file to skip menu on the next boot
+WriteFile(skipMenu, "")
+
+# Reboot default MIO application without menu
+Run(exeAppStartupSec)
