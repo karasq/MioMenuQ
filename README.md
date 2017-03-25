@@ -16,7 +16,7 @@ system with default Navman application, so it's addressed to owners of this devi
 4. Copy `Menu` folder to `Program Files\` direcotry on your device.
 5. Copy file `Program Files\Navman\appstartupsec.ini` to `Program Files\Navman\appstartupsec.bak.ini` on your device.
 6. Append following lines to `Program Files\Navman\appstartupsec.ini` on your device:
-   ```ini
+```ini
 [Process9]
 RelativePath=FALSE
 ProcessFile=Program Files\Menu\startmenu.exe
